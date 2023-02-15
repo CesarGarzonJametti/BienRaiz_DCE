@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  body{
+    background: -webkit-linear-gradient(to right, #3dadc4  , #cfd2ee);
+    background: linear-gradient(to right, #d5f4fa  , #033667);
+  
+}
+
+  .form-inicio {
+    width: 700px;
+    height: 930px;
+  
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px rgb(24, 23, 23);
+    background: -webkit-linear-gradient(to right, #ecf5f7  , #e8f0f8);
+    background: linear-gradient(to right, #eff8f9  , #d3d3ef);
+  
+  }
+  .form-inicio .send-button {
+    width: 55%;
+    border-radius: 30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    margin: 15px 0;
+    margin-right: 10px;
+    font-size: 20px;
+    border-color: #093e69;
+    
+  }
+.ub1{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 280px;
+  ;
+  }
+  .controls {
+    width: 70%;
+    background: #f0f2f4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(18, 16, 16);
+  }
+
+  .form-inicio a {
+    color:  rgba(1, 3, 127, 0.599);
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-inicio a:hover {
+    color: rgba(1, 3, 127, 0.599);
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .a{
+    color: rgba(78, 120, 226, 0.599);
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .h2{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+  }
+

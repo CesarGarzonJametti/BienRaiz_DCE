@@ -1,0 +1,25 @@
+#expandIcon, #collapseIcon {
+    display:none;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+#toc {
+    height: 300px !important;
+}
+
+#tocContent {
+    height: 300px !important;
+}
+
+#tocFooter {
+    display: none;
+}
+
+#main_container {
+	top: 0px !important;
+}
+
+#playbar {
+    visibility: hidden;
+}

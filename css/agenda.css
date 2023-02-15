@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body .contenedor {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+    padding: 60px;
+}
+
+    body div .cita {
+        background-color: #f2f2f2;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 15px;
+    }
+
+        body div div .im_inmueble {
+            height: 150px;        
+        }
+
+        body div div .detalle {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            margin-left: 40px;
+        }
+
+        body div div .bt_formulario {
+            align-items: center;
+            display: flex;
+            flex-flow: row nowrap;
+            width: 450px;
+        }
+
+            body div div div .clase_bt_formulario {
+                border: 0;
+                border-radius: 10px;
+                color: white;
+                padding: 5px 15px;
+            }
+
+            body div div div .modificar {
+                background-color: #ED9209; 
+            }
+
+            body div div div .eliminar {
+                background-color: #EC1320;
+                margin-left: 10px;
+            }
+
+                body div div div a .emoji {
+                    color: #fff;
+                    font-family: 'Noto Emoji', sans-serif;
+                }

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+    body .contenedor {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 60px;
+    }
+
+        body div .video_interactivo {
+            background-color: #f2f2f2;
+            border: solid 4px white;
+            flex-grow: 1;
+            height: 600px;
+        }
+
+        body div .descripcion {
+            padding-left: 15px;
+            width: 430px;
+        }
+
+            body div div .detalles {
+                background-color: white;
+                line-height: 30px;
+                padding: 20px;
+                width: 415px;
+            }
+
+                body div div div ul {
+                    list-style: none;
+                }
+
+            body div div #calendario {
+                margin-top: 20px;
+                text-align: center;
+                width: 415px;
+            }
+
+                #diasc th,#diasc td {
+                    font: normal 14pt arial;
+                    width: 70px;
+                    height: 30px;
+                }
+
+                #diasc th {
+                    color: #282828;
+                    background-color: #f2f2f2;
+                }
+
+                /*línea de la fecha actual*/
+                #fechaactual {
+                    font: bold 12pt arial;
+                    padding: 0.4em;
+                    cursor: pointer;
+                }
+
+                /*cabecera del calendario*/ 
+                #anterior {
+                    color: #2C7876;
+                    float: left;
+                    width: 100px;
+                    font: bold 12pt arial;
+                    padding: 0.5em 0.1em;
+                    cursor: pointer;
+                }
+
+                #posterior {
+                    color: #2C7876;
+                    float: right;
+                    width: 100px;
+                    font: bold 12pt arial;
+                    padding: 0.5em 0.1em;
+                    cursor: pointer;
+                }
+
+                #anterior:hover {
+                    color: #42B4B0;
+                }
+
+                #posterior:hover {
+                    color: #42B4B0;
+                }
+
+                #titulos {
+                    font: normal 20pt "arial black";
+                    padding: 0.2em;
+                }
+
+                body div div div .hora {
+                    margin-top: 10px;
+                    text-align: left;
+                }
+
+                    body div div div div #titulo_hora {
+                        font-weight: bold;
+                    }
+
+            body div div #bt_formulario {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+                body div div div .clase_bt_formulario {
+                    border: 0;
+                    border-radius: 10px;
+                    color: white;
+                    padding: 5px 15px;
+                    text-decoration: none;
+                }
+
+                body div div div #bt_agendar {
+                    background-color: #ED9209;
+                }
+
+                body div div div #bt_regresar {
+                    background-color: #EC1320;
+                    margin-left: 10px;
+                }
+
+                    body div div div a .emoji {
+                        color: #fff;
+                        font-family: 'Noto Emoji', sans-serif;
+                    }

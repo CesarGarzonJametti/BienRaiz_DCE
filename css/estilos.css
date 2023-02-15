@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+header {
+	padding: 10px 0;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+}
+
+.navegador {
+	height: 50px;
+	background-color: #3c1b86;
+}
+
+.navegador ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav_enlace {
+	width: 100px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+.bt_mi_perfil {
+	float: right;
+}
+
+.nav_enlace a {
+	color: #fff;
+	text-decoration: none;
+}
